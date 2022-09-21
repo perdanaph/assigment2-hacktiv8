@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Macbook air M1 2020 ",
+      "description": "Apple Macbook Air M1 2020 adalah laptop dengan layar 13.3 inch dan resolusi 2560 x 1600pixels yang dilengkapi spesifikasi mumpuni. Laptop dengan berat 1.3kg ini ditenagai kartu grafis Apple M1 GPU dan didukung sistem operasi macOS"
+    },
+    {
+      "id": 2,
+      "name": "Lenovo IdeaPad C340",
+      "description": "Lenovo IdeaPad C340 adalah laptop dengan layar 14 inch dan resolusi 1920 x 1080pixels yang dilengkapi spesifikasi mumpuni. Laptop dengan berat 1.65kg ini ditenagai kartu grafis Up to NVIDIA® GeForce™ MX230 dan didukung sistem operasi Windows 10 Home."
+    },
+    {
+      "id": 3,
+      "name": "ASUS Expertbook B1 B1400",
+      "description": "ASUS Expertbook B1 B1400 adalah laptop dengan layar 14 inch dan resolusi 1920 x 1080pixels yang dilengkapi spesifikasi mumpuni. Laptop dengan berat 1.45kg ini ditenagai kartu grafis NVIDIA® GeForce® MX330 dan didukung sistem operasi Windows 10 Pro."
+    },
+    {
+      "id": 4,
+      "name": "Acer Nitro 5",
+      "description": "Acer Nitro 5 adalah laptop dengan layar 15.6 inch dan resolusi 1920 x 1080pixels yang dilengkapi spesifikasi mumpuni. Laptop dengan berat 2.48kg ini ditenagai kartu grafis NVIDIA® GeForce RTX™ 3060 dan didukung sistem operasi Windows 10 Home"
+    }
+  ]
+}
