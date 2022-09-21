@@ -11,6 +11,6 @@ exports.getAllNotes = async (req, res, next) => {
       result: notes
     })
   } catch (error) {
-    res.status(500).json({ message: 'Internal server error' })
+    next(error.name)
   }
 }

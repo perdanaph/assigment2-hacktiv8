@@ -12,6 +12,6 @@ exports.userVerify = (req, res, next) => {
     req.user = { id, name }
     next()
   } catch (error) {
-    res.status(500).json({ message: 'Internal server error' })
+    next(error.name)
   }
 }

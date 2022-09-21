@@ -7,10 +7,10 @@ exports.signIn = async (req, res, next) => {
   try {
     const user = User.findUser(name)
     if (!user) {
-      throw { name: 'user not found' }
+      throw { name: 'userNotFound' }
     }
     if (user.password !== password) {
-      throw { name: 'wrong password' }
+      throw { name: 'wrongPassword' }
     }
     const token = sign({
       id: user.id,
@@ -18,6 +18,6 @@ exports.signIn = async (req, res, next) => {
     }, { expiresIn: '1d' })
     res.status(200).json({ message: 'login Success', token })
   } catch (error) {
-    res.status(500).json({ message: 'internal server error' })
+    next(error.name)
   }
 }
