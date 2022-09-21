@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-const { products } = require('../storage/notes.json')
+const { products } = require('../storage/product.json')
 
 class Product {
   static getAllproducts () {

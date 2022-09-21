@@ -1,8 +1,8 @@
 const express = require('express')
 const router = express.Router()
-const noteController = require('../controllers/noteController')
+const productController = require('../controllers/productController')
 const authMiddleware = require('../middlewares/authMiddleware')
 
-router.get('/notes', authMiddleware.userVerify, noteController.getAllNotes)
+router.get('/products', authMiddleware.userVerify, productController.getAllProducts)
 
 module.exports = router
