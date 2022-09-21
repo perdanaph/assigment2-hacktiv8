@@ -3,17 +3,27 @@
     {
       "id": 1,
       "title": "Express",
-      "body": "adalah kerangka kerja aplikasi web back end untuk membangun RESTful API dengan Node.js, dirilis sebagai perangkat lunak open source dan gratis di bawah Lisensi MIT"
+      "description": "adalah kerangka kerja aplikasi web back end untuk membangun RESTful API dengan Node.js, dirilis sebagai perangkat lunak open source dan gratis di bawah Lisensi MIT"
     },
     {
       "id": 2,
       "title": "Sequelize",
-      "body": "Sequelize adalah Node.js promise-based ORM untuk MySQL, PostgreSQL, SQLite, MSSQL dan database SQL lainnya. Sequelize berfungsi  untuk bekerja dengan database dan relasi-relasi di dalamnya"
+      "description": "Sequelize adalah Node.js promise-based ORM untuk MySQL, PostgreSQL, SQLite, MSSQL dan database SQL lainnya. Sequelize berfungsi  untuk bekerja dengan database dan relasi-relasi di dalamnya"
     },
     {
       "id": 3,
       "title": "Modularization",
-      "body": "Dalam konteks pemrograman JavaScript, modularization merupakan teknik dalam memecah atau menggunakan kode dalam berkas JavaScript secara terpisah berdasarkan tanggung jawabnya masing-masing."
+      "description": "Dalam konteks pemrograman JavaScript, modularization merupakan teknik dalam memecah atau menggunakan kode dalam berkas JavaScript secara terpisah berdasarkan tanggung jawabnya masing-masing."
+    },
+    {
+      "id": 4,
+      "title": "Npm",
+      "description": "NPM adalah Node Package Manager, yaitu pengelola package JavaScript bawaan Node.js. Package manager sendiri merupakan tools yang fungsinya untuk mengelola package secara otomatis. "
+    },
+    {
+      "id": 5,
+      "title": "HTTP",
+      "description": "HTTP  adalah protokol jaringan lapisan aplikasi (application layer) yang dikembangkan untuk membantu proses transfer antar komputer. Protokol ini berguna untuk mentransfer informasi seperti dokumen, file, gambar, dan video antar komputer."
     }
   ]
 }
