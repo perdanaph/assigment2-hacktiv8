@@ -1,10 +1,10 @@
 /* eslint-disable camelcase */
-const { notes } = require('../storage/notes.json')
+const { products } = require('../storage/notes.json')
 
-class Note {
-  static getAllNote () {
-    return notes.map((note) => note)
+class Product {
+  static getAllproducts () {
+    return products.map((product) => product)
   }
 }
 
-module.exports = Note
+module.exports = Product
